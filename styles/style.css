@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    text-decoration: none;
+
+}
+body {
+    font-family: Roboto,sans-serif;
+    color: #212121;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.content {
+    padding-top: 25px;
+}
+h2 {
+    margin: 5px;
+}
+
+a {
+    padding: 3px;
+    color: #0063dc;
+}
+
+/* .aviation p {
+    float: left;
+    padding: 5px;
+}
+
+.buses h3 {
+    clear: both;;
+}
+
+.buses p {
+    float: left;
+    padding: 5px;
+}
+
+.citys h3 {
+    clear: both;;
+}
+
+citys p {
+    float: left;
+    padding: 5px;
+} */
+
+.list {
+    margin-top: 64px;
+    line-height: 2em;
+}
