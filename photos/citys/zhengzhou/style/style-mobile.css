@@ -1,0 +1,41 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+   width: 100%;
+   height: 500px;
+   margin: 0 auto;
+   background: url(https://c2.staticflickr.com/2/1744/42570341811_28896950b7_b.jpg) no-repeat center;
+   background-size: 100% auto;
+   opacity: 0.75;     }
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.main h1 {
+   line-height: 450%;
+   font-family: sans-serif;
+   text-align: center;
+   border-bottom: 2px solid rgb(12, 12, 12);
+}
+.main p {
+   /* text-align: center; */
+   font-family: sans-serif;
+   /* line-height: 70px; */
+   text-indent: 5px;
+   /* font-size: 200%; */
+}
+.main img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: table-cell;
+    vertical-align: middle;
+}
