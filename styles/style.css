@@ -68,7 +68,18 @@ img {
 table {
     width: 100%;
     border: 1;
+    height: auto;
+    margin: 10px auto 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+    text-align: center;
 
+}
+caption {
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
 }
 tr {
     height: 15pt;
@@ -79,6 +90,10 @@ td {
 
 
 }
+th {
+    background-color: #ccc;
+}
+
 .list {
     margin-top: 64px;
     line-height: 2em;
