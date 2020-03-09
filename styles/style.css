@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 50%;
+    max-width: 65%;
     margin: 0 auto;
     margin-top: 64px;
 }
@@ -81,10 +81,10 @@ caption {
     margin: 10px 0;
 }
 tr {
-    height: 15pt;
+    height: 20pt;
 }
 td {
-    height: 15pt;
+    height: 20pt;
     width: auto;
     border: thin solid gray;
 
