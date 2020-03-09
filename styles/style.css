@@ -65,6 +65,20 @@ img {
     vertical-align: middle;
 }
 
+table {
+    width: 100%;
+    border: 1;
+
+}
+tr {
+    height: 15pt;
+}
+td {
+    height: 15pt;
+    width: auto;
+
+
+}
 .list {
     margin-top: 64px;
     line-height: 2em;
