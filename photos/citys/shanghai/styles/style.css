@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*未访问的链接*/
+a:link {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+
+/*已访问的链接*/
+a:visited {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+
+/* 当有鼠标悬停在链接上 */
+a:hover {
+    outline: none;
+    color: #000;
+    text-decoration: none;
+} 
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: Helvetica;
+}
+
+body {
+    background: #f6f6f6;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navmap {
+    width: 100%;
+    position: relative;
+    font-size: 15px;
+    margin: 0 0;
+    padding: 0 0;
+    line-height: 52px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+
+}
+.fixnav li {
+    width: 25%;
+    float: left;
+    list-style: none;
+    background: #008400; 
+    font-size: 15px;   
+    text-align: center;
+}
+
+.fixnav li a {
+    color: #FFF;
+    
+}
+
+.fixnav li:hover {
+    background-color: #8fd400;
+}
+
+h1 {
+    font-size: 18px;
+    line-height: 55px;
+    
+    font-family: "微软雅黑";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* background: #c8c8c8; 
+    text-indent: 62px;
+    border-bottom: 2px solid #0c0c0c;*/
+}
+
+
+
+.header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 0;
+    background: url(https://c2.staticflickr.com/2/1740/42386555591_a24b625cd2_h.jpg) no-repeat center center;
+    background-size: 100% auto;
+    opacity: 0.9;/*背景色透明*/
+    
+}
+
+
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabulation {
+    width: 19%;
+    margin: 5px 2.5px 5px 6px;
+    background: #7dc519;
+    /*float: left;
+    height: 75px;
+    
+    2c69b9*/
+    border-bottom: 2px solid #0c0c0c;
+    text-align: center;
+    display: inline-block;
+}
+
+.tabulation ul {
+    width: 20%;
+    float: left;
+    margin: 10px 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tabulation li {
+    width: 20%;
+    font-size: 14px;
+    /* font-weight:bold; */
+    line-height: 22px;
+    float: left;
+    color: #000;
+    text-indent: 50px;
+    background: none;
+}
+
+.tabulation ul li a:hover {
+    /* color:#2c69b9; */
+    border-bottom: 2px solid #de0010;
+
+    /* text-decoration: underline; */
+} 
+
+.main h2 {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    height: 38px;
+    line-height: 38px;
+    margin: 38px 0px 10px 0px;
+    border-left: 3px solid #de0010;
+    background: #dedede;
+    text-indent: 16px;
+    color: #de0010;
+}
+
+.table {
+    /* width: 1000px; */
+    float:left;
+    margin-left: 10px;
+    /* display:inline; */
+}
+
+
+table {
+    width: 304px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+td, th {
+    border: thin solid gray;
+
+}
+
+.table table tbody tr td a:hover {
+    color: #de0010;
+    text-decoration: underline;
+
+}
+
+th {
+    background-color: #ccc;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.photos {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
