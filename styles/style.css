@@ -67,7 +67,6 @@ img {
 
 table {
     width: 100%;
-    border: 1;
     height: auto;
     margin: 10px auto 10px auto;
     border: thin solid black;
@@ -87,11 +86,13 @@ tr {
 td {
     height: 15pt;
     width: auto;
+    border: thin solid gray;
 
 
 }
 th {
     background-color: #ccc;
+    border: thin solid gray;
 }
 
 .list {
