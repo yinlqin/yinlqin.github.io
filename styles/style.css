@@ -57,6 +57,14 @@ citys p {
     padding: 5px;
 } */
 
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .list {
     margin-top: 64px;
     line-height: 2em;
