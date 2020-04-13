@@ -4,8 +4,13 @@
 }
 a:hover {
     text-decoration: none;
-
 }
+
+ul li {
+    list-style: none;
+    margin: 0.01em;
+}
+
 body {
     font-family: Roboto,sans-serif;
     color: #212121;
@@ -29,9 +34,27 @@ h2 {
     margin: 5px;
 }
 
-#aircraft_list {
-    float: left;
+h3 {
+    margin: 7px;
 }
+#aircraft_list {
+    float: none;
+    width: auto;
+    height: auto;
+}
+
+#aircraft_list_a {
+    float: left;
+    width: 50%;
+}
+
+#aircraft_list_B {
+    float: left;
+    width: 50%;
+}
+
+
+
 
 
 a {
