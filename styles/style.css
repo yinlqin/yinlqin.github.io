@@ -25,11 +25,15 @@ body {
     width: 100%;
     height: 25px;
 }
-#tp_home {
-    width: 20%;
+
+.topnav_class {
+    width: 25%;
     height: 25px;
     float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 
 h1 {
     font-size: 2em;
