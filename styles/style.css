@@ -29,6 +29,11 @@ h2 {
     margin: 5px;
 }
 
+#aircraft_list {
+    text-align: left;
+}
+
+
 a {
     padding: 3px;
     color: #0063dc;
