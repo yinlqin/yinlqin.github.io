@@ -18,9 +18,8 @@ body {
 }
 
 #container {
-    max-width: 65%;
+    max-width: 45%;
     margin: 0 auto;
-    margin-top: 64px;
 }
 #c_t_p {
     background-color: #ffffff;
