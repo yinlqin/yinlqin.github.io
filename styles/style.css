@@ -30,7 +30,7 @@ h2 {
 }
 
 #aircraft_list {
-    text-align: left;
+    float: left;
 }
 
 
