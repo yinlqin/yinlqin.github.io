@@ -11,7 +11,7 @@ body {
     color: #212121;
 }
 
-.container {
+#container {
     max-width: 65%;
     margin: 0 auto;
     margin-top: 64px;
@@ -22,7 +22,7 @@ h1 {
     margin: 0.67em 0;
 }
 
-.content {
+#content {
     padding-top: 25px;
 }
 h2 {
@@ -95,12 +95,12 @@ th {
     border: thin solid gray;
 }
 
-.list {
+#list {
     margin-top: 64px;
     line-height: 2em;
 }
 
-.footer {
+#footer {
     font-size: 0.7072135785em;
     margin-top: 50px;
     margin-bottom: 10px;
