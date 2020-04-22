@@ -146,20 +146,42 @@ h2 {
 h3 {
     margin: 7px;
 }
+
+#content {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+
+.aviation_class {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+
+
 #aircraft_list {
     float: none;
     width: auto;
-    height: auto;
+    height: 280px;
 }
 
 #aircraft_list_a {
     float: left;
     width: 50%;
+    border-top: 1px dashed #ddd;
 }
 
 #aircraft_list_B {
     float: left;
     width: 50%;
+    border-top: 1px dashed #ddd;
 }
 
 
@@ -233,8 +255,13 @@ th {
 }
 
 #list {
-    margin-top: 64px;
+    /* margin-top: 20px; */
+    height: 610px;
     line-height: 2em;
+    background-color: #fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
 }
 
 #footer {
