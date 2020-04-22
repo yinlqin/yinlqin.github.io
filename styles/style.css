@@ -21,10 +21,12 @@ body {
     max-width: 60%;
     margin: 0 auto;
 }
+
 #c_t_p {
     background-color: #ffffff;
     width: 100%;
     height: auto;
+    border: 1px solid #ECECEC;
 }
 
 /*#c_t_p a{
@@ -38,6 +40,74 @@ body {
     padding: 0px 0px 10px 20px;
 }
 
+#listname {
+    height: 270px;
+    background-color: #fff;
+    margin: 5px 0px 5px 0px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ECECEC;
+}
+#listname_top {
+    height: 30px;
+    font-size: 18px;
+}
+
+#listname_bottom {
+    font-size:14px;
+    border-top: 1px dashed #ddd;
+}
+.listname_bottom_ABCD/*标题*/ {
+    width: 32.5%;
+    float: left;
+    margin: 5px 4px 5px 1.5px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #ECECEC;
+}
+.listname_bottom_ABCD1 {
+    line-height: 20px;
+    border-bottom: 1px dashed #ddd;
+}
+.listname_bottom_ABCD img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #ECECEC;
+}
+.listname_bottom_ABCD3 {
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+
+
+
+.listnamex2_class{
+    width: 46%;
+    height: auto;
+    background-color: #fff;
+    margin: 0px 19px 5px 0px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ECECEC;
+    float: left;
+}
+
+
+.listnamex2_top_class {
+    height:50%;
+    font-size: 18px;
+}
+
+.listnamex2_bottom_class {
+    height:auto;
+    padding-top:10px;
+    font-size:14px;
+    line-height: 10px;
+    border-top: 1px dashed #ddd;
+
+}
 
 
 
