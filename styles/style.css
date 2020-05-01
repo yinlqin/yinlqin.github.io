@@ -1,295 +1,84 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    /* height: 100%; */
-}
-
-/*未访问的链接*/
-a:link {
-    outline: none;
-    color: #000;
-    text-decoration: none;
-}
-
-/*已访问的链接*/
-a:visited {
-    outline: none;
-    color: #000;
-    text-decoration: none;
-}
-
-/* 当有鼠标悬停在链接上 */
-a:hover {
-    outline: none;
-    color: #199318;
-    text-decoration: none;
-} 
-
-body {
-    width: 100%;
-    position: relative;
-    font-family: Helvetica;
-}
-
-body {
-    background: #f6f6f6;
-    height: 100%;
-}
-.container {
-    width: 85%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.navmap {
-    width: 100%;
-    position: relative;
-    font-size: 15px;
-    margin: 0 0;
-    padding: 0 0;
-    line-height: 52px;
-    box-shadow: 0 1px 3px rgba(26,26,26,.1);
-    height: 51px;
-}
-
-.fixnav {
-    width:100%;
-    height: 51px;
-}
-.fixnav li {
-    width: 25%;
-    float: left;
-    list-style: none;
-    background: #195a4b;
-    font-size: 15px;
-    text-align: center;
-}
-
-.fixnav li a {
-    color: #FFF;
-    
-}
-
-.fixnav li:hover {
-    background-color: #8fd400;
-}
-
-h1 {
-    font-size: 18px;
-    line-height: 55px;
-    font-family: "微软雅黑";
-    color: rgb(255, 255, 255);
-    text-align: center;
-    /* background: #c8c8c8; 
-    text-indent: 62px;
-    border-bottom: 2px solid #0c0c0c;*/
-}
-
-p {
-    font-size:inherit;
-    /* height: 20px; */
-}
-
-.header {
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    padding: 0 0;
-    background: url(https://c2.staticflickr.com/2/1740/42386555591_a24b625cd2_h.jpg) no-repeat center center;
-    background-size: 100% auto;
-    opacity: 0.9;/*背景色透明*/
-    
-}
-
-
-
-.main {
-    width: 100%;
-    margin: 5px auto;
-    height: 55px;
-}
-
-.tabulation {
-    width: 9.9%;
-    /* margin: 5px 0px 0px 0.5px; */
-    /* margin-top: 5px; */
-    background: #7dc519;
-    /*float: left;
-    height: 75px;
-    
-    2c69b9*/
-    /* border-bottom: 2px solid #0c0c0c; */
-    text-align: center;
-    display: inline-block;
-    height: 100%;
-    /* padding: 0px 0px 0px 0px; */
-}
-
-.tabulation ul {
-    width: 20%;
-    float: left;
-    margin: 10px 20px 0 0;
+    margin: 0;
     padding: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
     list-style: none;
+    margin: 0.01em;
 }
 
-.tabulation li {
-    width: 20%;
-    font-size: 14px;
-    /* font-weight:bold; */
-    line-height: 22px;
-    float: left;
-    color: #000;
-    text-indent: 50px;
-    background: none;
+body {
+    font-family: Roboto,sans-serif;
+    color: #212121;
+    background-color: #f5f6f7;
 }
 
-.tabulation ul li a:hover {
-    /* color:#2c69b9; */
-    border-bottom: 2px solid #de0010;
-
-    /* text-decoration: underline; */
-} 
-
-.main h2 {
-    font-size: 18px;
-    font-family: "微软雅黑";
-    height: 38px;
-    line-height: 38px;
-    margin: 38px 0px 10px 0px;
-    border-left: 3px solid #de0010;
-    background: #dedede;
-    text-indent: 16px;
-    color: #de0010;
+#container {
+    max-width: 60%;
+    margin: 0 auto;
 }
 
-.table {
-    /* width: 1000px; */
-    float:left;
-    margin-left: 10px;
-    /* display:inline; */
-}
-
-
-table {
-    width: 304px;
-    height: auto;
-    margin: 10px auto 10px auto;
-    border: thin solid black;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-caption {
-    font-size: 20px;
-    height: 25px;
-    line-height: 25px;
-    margin: 10px 0;
-}
-
-td, th {
-    border: thin solid gray;
-
-}
-
-.table table tbody tr td a:hover {
-    color: #de0010;
-    text-decoration: underline;
-
-}
-
-th {
-    background-color: #ccc;
-}
-
-.clearboth {
-    clear: both;
-    height: 0px;
-}
-
-.photos {
+#c_t_p {
+    background-color: #ffffff;
     width: 100%;
     height: auto;
-    margin: 0 auto;
-
+    border: 1px solid #ECECEC;
 }
 
-.photos img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-
+/*#c_t_p a{
+    color: #fff;
+}*/
+#c_t_p h1{
+    padding: 10px 0px 0px 15px;
 }
-
-#content {
-    /* width: 100%; */
-    height: 100%;
-    background-color:#fff;
-    /* border: 1px solid #ECECEC; */
-    /* padding: 5px 10px 10px 10px; */
-    margin-top: 5px;
-    /* border-top: 1px dashed #ddd; */
-}
-
-img {
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    display: table-cell;
-    vertical-align: middle;
+#c_t_p p{
+    /*color: #fff; */
+    padding: 0px 0px 10px 20px;
 }
 
 #listname {
-    width: 100%;
-    height: 760px;
-    background-color: #ffffff;
-    /* margin: 0px 5px 5px 5px; */
-    /* padding: 5px 0px 0px 0px; */
-    /* border: 1px solid #ECECEC; */
+    height: 270px;
+    background-color: #fff;
+    margin: 5px 0px 5px 0px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ECECEC;
 }
 #listname_top {
     height: 30px;
     font-size: 18px;
-    /* width: 100%; */
 }
 
 #listname_bottom {
     font-size:14px;
     border-top: 1px dashed #ddd;
-    height: 347px;
-    width: 100%;
 }
 .listname_bottom_ABCD/*标题*/ {
     width: 32.5%;
-    height: 100%;
     float: left;
-    margin: 5px 5px 0px 5px;
-    padding: 1px 0px 5px 0px;
+    margin: 5px 4px 5px 1.5px;
+    padding: 10px 0px 10px 0px;
     border: 1px solid #ECECEC;
 }
 .listname_bottom_ABCD1 {
-    line-height: 25px;
+    line-height: 20px;
     border-bottom: 1px dashed #ddd;
-    height: 25px;
-}
-.listname_bottom_ABCD2 {
-    width: 100%;
-    height: 300px;
-    /* border-bottom: 1px dashed #ddd; */
 }
 .listname_bottom_ABCD img {
     width: 100%;
     height: auto;
-    /* margin: 0 auto; */
-    /* display: table-cell; */
-    /* vertical-align: middle; */
-    /* border: 1px solid #ECECEC; */
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #ECECEC;
 }
 .listname_bottom_ABCD3 {
     font-size: 12px;
-    /* margin-top: 5px; */
-    height: 25px;
-    /* border-bottom: 1px dashed #ddd; */
+    margin-top: 5px;
+
 }
 
 
@@ -318,4 +107,165 @@ img {
     line-height: 10px;
     border-top: 1px dashed #ddd;
 
+}
+
+
+
+#topnav {
+    width: 100%;
+    height: 45px;
+    /* background-color: #f7f7f7; */
+    border-top: 1px solid #f5f6f7;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+
+.topnav_class {
+    width: 24.99%;
+    height: 25px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /* padding-left: 15px; */
+    text-align: center;
+    border-left: 0.001em solid #f5f6f7;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin: 0.47em 0px 0.3em 0px;
+}
+/*
+#content {
+    padding-top: 25px;
+}*/
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 7px;
+}
+
+#content {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+
+.aviation_class {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+
+
+#aircraft_list {
+    float: none;
+    width: auto;
+    height: 280px;
+}
+
+#aircraft_list_a {
+    float: left;
+    width: 50%;
+    border-top: 1px dashed #ddd;
+}
+
+#aircraft_list_B {
+    float: left;
+    width: 50%;
+    border-top: 1px dashed #ddd;
+}
+
+
+
+
+
+a {
+    padding: 3px;
+    color: #0063dc;
+}
+
+/* .aviation p {
+    float: left;
+    padding: 5px;
+}
+
+.buses h3 {
+    clear: both;;
+}
+
+.buses p {
+    float: left;
+    padding: 5px;
+}
+
+.citys h3 {
+    clear: both;;
+}
+
+citys p {
+    float: left;
+    padding: 5px;
+} */
+
+img {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+caption {
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+tr {
+    height: 20pt;
+}
+td {
+    height: 20pt;
+    width: auto;
+    border: thin solid gray;
+
+
+}
+th {
+    background-color: #ccc;
+    border: thin solid gray;
+}
+
+#list {
+    /* margin-top: 20px; */
+    height: 610px;
+    line-height: 2em;
+    background-color: #fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
+}
+
+#footer {
+    font-size: 0.7072135785em;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
