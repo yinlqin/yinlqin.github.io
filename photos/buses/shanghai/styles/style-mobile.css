@@ -76,7 +76,7 @@ body {
 
 h1 {
     font-size: 18px;
-    line-height: 55px;
+    line-height: 34px;
     font-family: "微软雅黑";
     color: rgb(255, 255, 255);
     text-align: center;
@@ -92,13 +92,12 @@ p {
 
 .header {
     width: 100%;
-    height: 600px;
+    height: 465px;
     margin: 0 auto;
     padding: 0 0;
     background: url(https://c2.staticflickr.com/2/1740/42386555591_a24b625cd2_h.jpg) no-repeat center center;
     background-size: 100% auto;
     opacity: 0.9;/*背景色透明*/
-    
 }
 
 
@@ -106,7 +105,7 @@ p {
 .main {
     width: 100%;
     margin: 5px auto;
-    height: 55px;
+    height: 32px;
 }
 
 .tabulation {
@@ -232,7 +231,7 @@ th {
 }
 
 img {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: table-cell;
@@ -241,7 +240,7 @@ img {
 
 .listname {
     width: 100%;
-    height: 760px;
+    height: 475px;
     background-color: #ffffff;
     /* margin: 0px 5px 5px 5px; */
     /* padding: 5px 0px 0px 0px; */
@@ -253,15 +252,15 @@ img {
     /* width: 100%; */
 }
 
-.listname_bottom {
+#listname_bottom {
     font-size:14px;
     border-top: 1px dashed #ddd;
-    height: 347px;
+    height: 207px;
     width: 100%;
 }
 .listname_bottom_ABCD/*标题*/ {
-    width: 32.5%;
-    height: 100%;
+    width: 31.5%;
+    /* height: 100%; */
     float: left;
     margin: 5px 5px 0px 5px;
     padding: 1px 0px 5px 0px;
@@ -274,7 +273,7 @@ img {
 }
 .listname_bottom_ABCD2 {
     width: 100%;
-    height: 300px;
+    height: 153px;
     /* border-bottom: 1px dashed #ddd; */
 }
 .listname_bottom_ABCD img {
