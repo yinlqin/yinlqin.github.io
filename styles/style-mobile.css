@@ -18,7 +18,7 @@ body {
 }
 
 #container {
-    max-width: 60%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 #listname {
-    height: 270px;
+    height: 245px;
     background-color: #fff;
     margin: 5px 0px 5px 0px;
     padding: 15px 10px 15px 10px;
@@ -57,7 +57,7 @@ body {
     border-top: 1px dashed #ddd;
 }
 .listname_bottom_ABCD/*标题*/ {
-    width: 32.5%;
+    width: 32%;
     float: left;
     margin: 5px 4px 5px 1.5px;
     padding: 10px 0px 10px 0px;
@@ -129,6 +129,17 @@ body {
     text-align: center;
     border-left: 0.001em solid #f5f6f7;
 }
+.topnav_class1 {
+    width: 24.99%;
+    height: 25px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /* padding-left: 15px; */
+    text-align: center;
+    /*border-left: 0.001em solid #f5f6f7;*/
+}
+
 
 
 h1 {
@@ -217,7 +228,7 @@ citys p {
 } */
 
 img {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 10px auto;
     display: table-cell;
