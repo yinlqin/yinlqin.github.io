@@ -1,0 +1,61 @@
+wwwroot    网站根目录
+├─index.php             网站首页
+├─login.php             网站登录首页
+|
+├─admin                            管理界面目录
+│  ├─qf_cx_kucunchaxun.php               库存查询界面
+│  ├─qf_cx_rukudanchaxun.php             入库单查询界面
+│  ├─qf_cx_chukudanchaxun.php            出库单查询界面
+│  ├─qf_cx_caigoudanchaxun.php           采购单查询界面
+│  ├─qf_jcxxgl_wuliaoguanli.php          物料管理界面
+│  ├─qf_jcxxgl_wuliaoguanli_add.php      物料管理界面——新建物料界面
+│  ├─qf_jcxxgl_wuliaoguanli_upd.php      物料管理界面——修改物料信息界面
+│  ├─qf_jcxxgl_wuliaoguanli_del.php      物料管理界面——删除物料信息界面
+│  ├─qf_jcxxgl_yonghuguanli.php          用户管理界面
+│  ├─qf_jcxxgl_yonghuguanli_add.php      用户管理界面——新建用户界面
+│  ├─qf_jcxxgl_yonghuguanli_upd.php      用户管理界面——修改用户信息界面
+│  ├─qf_jcxxgl_yonghuguanli_del.php      用户管理界面——删除用户界面
+|
+├─caigou                                 网页“采购”模块目录
+│  ├─qf_cg_caigoudan.php                 采购单管理界面
+│  ├─qf_cg_caigoudan_add.php             添加采购单功能界面
+│  ├─qf_cg_caigoudan_del.php             采购单删除界面
+│  ├─qf_cg_caigoudan_liebiao.php         采购单列表界面
+│  ├─qf_cg_caigoudan_liebiao_add.php     采购单列表——添加明细功能界面
+│  ├─qf_cg_caigoudan_liebiao_del.php     采购单列表——删除明细功能界面
+|
+├─ruku                                   网页“入库”模块目录
+│  ├─qf_rk_rukudan.php                   入库单管理界面
+│  ├─qf_rk_rukudan_add.php               添加入库单功能界面
+│  ├─qf_rk_rukudan_del.php               入库单删除界面
+│  ├─qf_rk_rukudan_liebiao.php           入库单列表界面
+│  ├─qf_rk_rukudan_liebiao_add.php       入库单列表——添加明细功能界面
+│  ├─qf_rk_rukudan_liebiao_del.php       入库单列表——删除明细功能界面
+|
+├─chuku                                  网页“出库”模块目录
+│  ├─qf_ck_chukudan.php                  出库单管理界面
+│  ├─qf_ck_chukudan_add.php              添加出库单功能界面
+│  ├─qf_ck_chukudan_del.php              出库单删除界面
+│  ├─qf_ck_chukudan_liebiao.php          出库单列表界面
+│  ├─qf_ck_chukudan_liebiao_add.php      出库单列表——添加明细功能界面
+│  ├─qf_ck_chukudan_liebiao_del.php      出库单列表——删除明细功能界面
+|
+├─public                               WEB目录
+│  ├─css          	                     公用css资源目录
+│  │   ├─layui.css          	         layui模板需要的css文件
+│  │   ├─layui.mobile.css         	     layui模板适配手机界面所需要的css文件
+│  ├─js          	                     公用js功能资源目录
+│  │   ├─layui.js          	             layui模板按钮功能需要的js文件
+│  │   ├─layui.all.css         	         layui模板按钮功能需要的js文件
+│  ├─jquery          	                 公用js功能资源目录
+│  │   ├─jquery-3.6.0.min.js          	 jquery框架文件
+│  ├─font          	                     网页显示所需要的字体文件
+|
+├─inc                                    配置文件目录
+│  ├─check_login_inc.php                 用于检查用户是否登录的功能
+│  ├─config.inc.php                      配置数据库连接目录
+│  ├─header.inc.php              网页界面公用的头部
+│  ├─footer.inc.php.php                  网页界面公用的尾部
+│  ├─mysql.inc.php                       数据库接口文件
+│  ├─tool.inc.php                        网页内跳转提示页面
+|  ├─confirm.php                         网页内跳转提示页面
