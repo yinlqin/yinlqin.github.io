@@ -157,7 +157,7 @@ h3 {
     margin: 7px;
 }
 
-#content {
+.content {
     /* height: 100px; */
     background-color:#fff;
     border: 1px solid #ECECEC;
@@ -230,6 +230,13 @@ img {
     width: 80%;
     height: auto;
     margin: 10px auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+#imgbox img {
+    width: 100%;
+    height: auto;
+    /*margin: 10px auto;*/
     display: table-cell;
     vertical-align: middle;
 }
