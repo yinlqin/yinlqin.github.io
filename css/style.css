@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    margin: 0.01em;
+}
+
+body {
+    font-family: Roboto,sans-serif;
+    color: #212121;
+    background-color: #f5f6f7;
+}
+
+#container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#c_t_p {
+    background-color: #ffffff;
+    /* width: 100%; */
+    height: auto;
+    border: 1px solid #ECECEC;
+}
+
+#c_t_p h1{
+    padding: 10px 0px 0px 15px;
+}
+#c_t_p p{
+    /*color: #fff; */
+    padding: 0px 0px 10px 20px;
+}
+
+#listname {
+    height: 270px;
+    background-color: #fff;
+    margin: 5px 0px 5px 0px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ECECEC;
+}
+#listname_top {
+    height: 30px;
+    font-size: 18px;
+}
+
+#listname_bottom {
+    font-size:14px;
+    border-top: 1px dashed #ddd;
+}
+.listname_bottom_ABCD/*标题*/ {
+    width: 32.5%;
+    float: left;
+    margin: 5px 4px 5px 1.5px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #ECECEC;
+}
+.listname_bottom_ABCD1 {
+    line-height: 20px;
+    border-bottom: 1px dashed #ddd;
+}
+.listname_bottom_ABCD img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #ECECEC;
+}
+.listname_bottom_ABCD3 {
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+
+
+
+.listnamex2_class{
+    width: 46%;
+    height: auto;
+    background-color: #fff;
+    margin: 0px 19px 5px 0px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ECECEC;
+    float: left;
+}
+
+
+.listnamex2_top_class {
+    height:50%;
+    font-size: 18px;
+}
+
+.listnamex2_bottom_class {
+    height:auto;
+    padding-top:10px;
+    font-size:14px;
+    line-height: 10px;
+    border-top: 1px dashed #ddd;
+
+}
+
+
+
+#topnav {
+    width: 100%;
+    height: 45px;
+    /* background-color: #f7f7f7; */
+    border-top: 1px solid #f5f6f7;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+
+.topnav_class {
+    /* width: 23.99%; */
+    height: 25px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /* padding-left: 15px; */
+    text-align: center;
+    border-left: 0.001em solid #f5f6f7;
+}
+
+.topnav_class1 {
+    width: 24.99%;
+    height: 25px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /* padding-left: 15px; */
+    text-align: center;
+    /*border-left: 0.001em solid #f5f6f7;*/
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.47em 0px 0.3em 0px;
+}
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 7px;
+}
+
+.content {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+
+.aviation_class {
+    /* height: 100px; */
+    background-color:#fff;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    margin-top: 5px;
+    /* border-top: 1px dashed #ddd; */
+}
+.alinkbox {
+    display: inline-block;
+    padding-top: 5px;
+    width: 20%;
+}
+
+#aircraft_list {
+    float: none;
+    width: auto;
+    height: 280px;
+}
+
+#aircraft_list_a {
+    float: left;
+    width: 50%;
+    border-top: 1px dashed #ddd;
+}
+
+#aircraft_list_B {
+    float: left;
+    width: 50%;
+    border-top: 1px dashed #ddd;
+}
+
+
+
+
+
+a {
+    padding: 3px;
+    color: #0063dc;
+}
+
+
+.show_box {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #bebebe;
+}
+.show_box img {
+    width:500px;
+    height: auto;
+}
+.show_box ul li {
+    list-style: none;
+    margin: 2em;
+}
+
+.show_box_photo_wrapper {
+    overflow: hidden;
+    position: relative;
+}
+.show_box_link {
+    padding-left: 20px;
+    display: flex;
+}
+
+.pages_wrap {
+    text-align: center;
+}
+
+show_box_link_block ul li span a{
+    padding-left: 50px;
+}
+
+
+
+
+.layui-input-block-wlxc {
+    display: flex;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+#imgbox img {
+    width: 100%;
+    height: auto;
+    /*margin: 10px auto;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+#imgbox {
+    display: flex;
+    height: auto;
+}
+#img_box {
+    display: flex;
+    height: auto;
+}
+.img_box {
+    display: flex;
+    height: auto;
+}
+.imgbox_show img{
+    height: 160px;
+}
+
+.imgbox_show{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+table {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+caption {
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+tr {
+    height: 20pt;
+}
+td {
+    height: 20pt;
+    width: auto;
+    border: thin solid gray;
+
+
+}
+th {
+    background-color: #ccc;
+    border: thin solid gray;
+}
+
+#list {
+    /* margin-top: 20px; */
+    height: 610px;
+    line-height: 2em;
+    background-color: #fff;
+    border: 1px solid #ECECEC;
+    padding: 5px 10px 10px 10px;
+    margin-top: 5px;
+}
+
+#footer {
+    font-size: 0.7072135785em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.layui-form-item
+{
+    clear:both;
+    zoom:1;
+    display: flex;
+    /*margin-bottom:15px;
+    
+    **/
+    margin-top: 15px;
+    /*margin-left: 255px;*/
+}
+
+.layui-form-label
+{
+    float:left;display:block;padding:9px 15px;font-weight:400;line-height:20px;text-align:left;width: 80px;
+}
+.layui-input-block{
+    /*margin-left: 250px;*/
+    min-height: 36px;
+    width: 500px;
+    padding-bottom: 5px;
+}
